@@ -5,7 +5,7 @@ import BurgerNav from "./BurgerNav";
 import logo from "../assets/firmaDVillegas.png";
 export default function NavBar() {
   const [isVisible, setIsVisible] = useState(false);
-  const [menuVisible, setMenuVisible] = useState(false);
+  const [menuVisible] = useState(false);
 
   return (
     <div className={style.navBar}>

@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./Estilos/Loading.module.css";
 export default function Loading() {
   return (
     <div>
