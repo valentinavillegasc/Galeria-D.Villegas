@@ -14,7 +14,7 @@ import {
 export const getColecciones = () => {
   return async function (dispatch) {
     try {
-      const colecciones = await axios.get(`http://localhost:3001/colecciones`);
+      const colecciones = await axios.get(`/colecciones`);
       dispatch({ type: GET_COLECCIONES, payload: colecciones.data });
     } catch (error) {
       console.error("Error al obtener colecciones:", error);
@@ -24,18 +24,14 @@ export const getColecciones = () => {
 
 export const getColeccionesById = (id) => {
   return async function (dispatch) {
-    const coleccion = await axios.get(
-      `http://localhost:3001/colecciones/${id}`
-    );
+    const coleccion = await axios.get(`/colecciones/${id}`);
     dispatch({ type: GET_COLECCION_BY_ID, payload: coleccion.data });
   };
 };
 
 export const getColeccionByName = (name) => {
   return async function (dispatch) {
-    const coleccion = await axios.get(
-      `http://localhost:3001/colecciones?name=${name}`
-    );
+    const coleccion = await axios.get(`/colecciones?name=${name}`);
     dispatch({ type: GET_COLECCION_BY_NAME, payload: coleccion.data });
   };
 };
@@ -44,7 +40,7 @@ export const getColeccionByName = (name) => {
 
 export const getColibries = () => {
   return async function (dispatch) {
-    const colibries = await axios.get(`http://localhost:3001/colibries`);
+    const colibries = await axios.get(`/colibries`);
     console.log("Datos de colibríes obtenidos:", colibries.data);
     dispatch({ type: GET_COLIBRIES, payload: colibries.data });
   };
@@ -52,16 +48,14 @@ export const getColibries = () => {
 
 export const getColibriesById = (id) => {
   return async function (dispatch) {
-    const colibri = await axios.get(`http://localhost:3001/colibries/${id}`);
+    const colibri = await axios.get(`/colibries/${id}`);
     dispatch({ type: GET_COLIBRI_BY_ID, payload: colibri.data });
   };
 };
 
 export const getColibriesByName = (name) => {
   return async function (dispatch) {
-    const colibri = await axios.get(
-      `http://localhost:3001/colibries?name=${name}`
-    );
+    const colibri = await axios.get(`/colibries?name=${name}`);
     dispatch({ type: GET_COLIBRI_BY_NAME, payload: colibri.data });
   };
 };
