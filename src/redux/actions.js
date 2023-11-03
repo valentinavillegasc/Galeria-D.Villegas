@@ -9,6 +9,7 @@ import {
   CLEAN_DETAIL,
 } from "./action-types";
 
+axios.defaults.baseURL = "http://back-galeria-production.up.railway.app:3001";
 //! Actions COLECCIONES
 
 export const getColecciones = () => {
