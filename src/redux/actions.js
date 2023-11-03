@@ -9,6 +9,8 @@ import {
   CLEAN_DETAIL,
 } from "./action-types";
 
+// axios.defaults.baseURL = "http://localhost:3001";
+
 axios.defaults.baseURL = "https://back-galeria-production.up.railway.app";
 //! Actions COLECCIONES
 

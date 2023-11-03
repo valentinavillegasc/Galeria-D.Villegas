@@ -101,9 +101,11 @@
     margin-bottom: 10px;
     font-size: 2.5rem;
     font-weight: 100; /* Tamaño de fuente más pequeño para los párrafos */
+    color: black;
   }
 
   .textoDebajoFoto {
+    color: black;
     display: flex;
     flex-direction: column;
     font-size: 2.5rem;

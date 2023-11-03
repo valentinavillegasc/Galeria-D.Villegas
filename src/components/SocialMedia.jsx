@@ -19,7 +19,7 @@ export default function SocialMedia() {
           <FaSquareFacebook className={style.icon} />
         </a>
       </div>
-      <p>Siguenos!</p>
+      <p className={style.siguenos}>Siguenos!</p>
     </div>
   );
 }
