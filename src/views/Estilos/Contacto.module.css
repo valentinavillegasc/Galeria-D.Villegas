@@ -108,48 +108,51 @@ button:disabled {
   .colibri {
     display: none;
   }
+
   .titleContainer {
-    font-size: 11rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    font-size: 5rem; /* Reducido el tamaño del título */
+    text-align: center; /* Centrado el texto */
   }
+
   .colibristicker {
     display: flex;
-    width: 200px;
+    justify-content: center; /* Centrado horizontal */
   }
 
   .formulario {
-    width: 1040px;
-    margin-left: 40px;
-    margin-top: 100px;
+    width: 100%; /* Establecido el ancho al 100% */
+    margin: 20px; /* Ajustado el margen */
   }
+
   .inputs label {
-    font-size: 7.5rem;
+    font-size: 2rem; /* Reducido el tamaño de la etiqueta */
   }
 
   .inputs textarea {
-    height: 200px;
-    width: 600px;
+    height: 150px; /* Reducido la altura del área de texto */
+    width: 100%; /* Establecido el ancho al 100% */
   }
+
   .inputs input,
   .inputs select,
   .inputs textarea {
-    font-size: 2rem;
+    font-size: 1.5rem; /* Reducido el tamaño del texto de entrada */
     width: 100%;
-    padding: 20px;
+    padding: 10px; /* Ajustado el relleno */
+    margin-bottom: 10px; /* Ajustado el margen inferior */
   }
+
   .inputs div {
-    margin: 40px;
+    margin: 20px 0; /* Ajustado el margen superior e inferior */
   }
+
   .errors {
-    font-size: 3.5rem;
+    font-size: 2rem; /* Reducido el tamaño del texto de error */
   }
+
   .button {
-    width: 10em;
-    height: 2em;
-    font-size: 3rem;
-    margin-top: 100px;
+    width: 100%; /* Establecido el ancho al 100% */
+    font-size: 2rem; /* Reducido el tamaño del texto del botón */
+    margin-top: 20px; /* Ajustado el margen superior */
   }
 }

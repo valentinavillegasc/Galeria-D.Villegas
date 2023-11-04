@@ -1,6 +1,6 @@
 .biografia {
-  height: 100vh;
-  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
 }
 
 .infoContainer {
@@ -72,35 +72,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 50px 0px;
+    margin: 20px 20px 0px; /* Reducido el margen */
   }
 
   .fotoContainer {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reducido el margen inferior */
   }
+
   .foto {
-    width: 1000px;
-    height: 600px;
+    width: 100%; /* Establecido el ancho al 100% para que sea responsivo */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    max-width: 1000px; /* Establecido un ancho máximo para la imagen */
   }
 
   .nameContainer {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reducido el margen inferior */
+    text-align: center; /* Centrado el texto */
   }
 
   .nameContainer h2 {
-    font-size: 9rem;
+    font-size: 5rem; /* Reducido el tamaño de la fuente */
     font-weight: 100;
   }
 
   .nameContainer p {
-    font-size: 2.8rem;
-    padding-bottom: 20px; /* Tamaño de fuente más pequeño para el párrafo */
+    font-size: 1.6rem; /* Reducido el tamaño de la fuente */
+    padding-bottom: 10px; /* Tamaño de fuente más pequeño para el párrafo */
+  }
+  .infoBiografia {
+    margin: 0px;
   }
 
   .textoParteDerecha p {
-    margin-bottom: 10px;
-    font-size: 2.5rem;
-    font-weight: 100; /* Tamaño de fuente más pequeño para los párrafos */
+    margin-bottom: 5px; /* Reducido el margen inferior */
+    font-size: 1.8rem; /* Reducido el tamaño de la fuente */
+    font-weight: 100;
     color: black;
   }
 
@@ -108,10 +114,9 @@
     color: black;
     display: flex;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 1.8rem; /* Reducido el tamaño de la fuente */
     font-weight: 100;
-    margin: 0px 80px;
-    width: 960px;
-    height: 200px;
+    margin: 0px 20px; /* Reducido el margen lateral */
+    max-width: 100%; /* Establecido el ancho máximo para que sea responsivo */
   }
 }

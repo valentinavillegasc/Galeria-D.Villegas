@@ -1,9 +1,11 @@
 .CardsColecciones {
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
   .CardsColecciones {
-    width: 1090px;
+    width: 100%;
   }
 }

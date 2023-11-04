@@ -1,12 +1,11 @@
 .burguerNav {
   height: fit-content;
-  width: 300px;
+  width: fit-content;
   display: flex;
+  margin-top: 9vh;
   justify-content: space-around;
   padding: 10px;
-  margin-top: 22.3vh;
   background-image: url("../../assets/navBar.png");
-  position: fixed; /* O position: absolute; dependiendo de tus necesidades */
   top: 0;
   right: 0;
   z-index: 9999;
@@ -21,7 +20,7 @@
 .link {
   color: white;
   text-decoration: none;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 /*Media queries*/
