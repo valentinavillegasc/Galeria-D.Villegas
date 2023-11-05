@@ -49,76 +49,78 @@ export default function Contacto() {
   return (
     <div className={style.contacto}>
       <NavBar />
-      <form className={style.formulario}>
-        <div className={style.contenedorinputs}>
-          <div className={style.titleContainer}>
-            <h1>Formulario de contacto </h1>
-            <img
-              src={colibristicker}
-              alt="Sticker de colibri"
-              className={style.colibristicker}
-            />
-          </div>
-          <div className={style.contenedor}>
-            <div className={style.inputs}>
-              <div>
-                <label htmlFor="name">Nombre:</label>
-                <input
-                  name="name"
-                  type="name"
-                  value={form.name}
-                  onChange={handleChange}
-                  placeholder="Nombre"
-                />
-              </div>
-              {errors.name && <p className={style.errors}>{errors.name}</p>}
-              <div>
-                <label htmlFor="email">Email:</label>
-                <input
-                  name="email"
-                  type="email"
-                  value={form.email}
-                  onChange={handleChange}
-                  placeholder="Email"
-                />
-              </div>
-              {errors.email && <p className={style.errors}>{errors.email}</p>}
-              <div>
-                <label htmlFor="colibries">Colibri:</label>
-                <select
-                  name="colibri"
-                  value={form.colibri}
-                  onChange={handleChange}
-                  placeholder="elige uno ">
-                  <option>Ninguno</option>
-                  {colibries.map((colibri) => {
-                    return (
-                      <option placeholder="elige uno ">{colibri.name}</option>
-                    );
-                  })}
-                </select>
-              </div>
-              <div>
-                <label htmlFor="text">Mensaje:</label>
-                <textarea
-                  name="message"
-                  value={form.message}
-                  onChange={handleChange}
-                  placeholder="¿Qué te gustaría saber?"
-                />
-              </div>
-              {errors.message && (
-                <p className={style.errors}>{errors.message}</p>
-              )}
-              <button className={style.button} onClick={handleSubmit}>
-                Enviar
-              </button>
-              <SocialMedia />
+      <div className={style.form}>
+        <form className={style.formulario}>
+          <div className={style.contenedorinputs}>
+            <div className={style.titleContainer}>
+              <h1>Formulario de contacto </h1>
+              <img
+                src={colibristicker}
+                alt="Sticker de colibri"
+                className={style.colibristicker}
+              />
             </div>
-            <img className={style.colibri} src={colibri} alt="" />
+            <div className={style.contenedor}>
+              <div className={style.inputs}>
+                <div>
+                  <label htmlFor="name">Nombre:</label>
+                  <input
+                    name="name"
+                    type="name"
+                    value={form.name}
+                    onChange={handleChange}
+                    placeholder="Nombre"
+                  />
+                </div>
+                {errors.name && <p className={style.errors}>{errors.name}</p>}
+                <div>
+                  <label htmlFor="email">Email:</label>
+                  <input
+                    name="email"
+                    type="email"
+                    value={form.email}
+                    onChange={handleChange}
+                    placeholder="Email"
+                  />
+                </div>
+                {errors.email && <p className={style.errors}>{errors.email}</p>}
+                <div>
+                  <label htmlFor="colibries">Colibri:</label>
+                  <select
+                    name="colibri"
+                    value={form.colibri}
+                    onChange={handleChange}
+                    placeholder="elige uno ">
+                    <option>Ninguno</option>
+                    {colibries.map((colibri) => {
+                      return (
+                        <option placeholder="elige uno ">{colibri.name}</option>
+                      );
+                    })}
+                  </select>
+                </div>
+                <div>
+                  <label htmlFor="text">Mensaje:</label>
+                  <textarea
+                    name="message"
+                    value={form.message}
+                    onChange={handleChange}
+                    placeholder="¿Qué te gustaría saber?"
+                  />
+                </div>
+                {errors.message && (
+                  <p className={style.errors}>{errors.message}</p>
+                )}
+                <button className={style.button} onClick={handleSubmit}>
+                  Enviar
+                </button>
+                <SocialMedia />
+              </div>
+              <img className={style.colibri} src={colibri} alt="" />
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
       <Footer />
     </div>
   );

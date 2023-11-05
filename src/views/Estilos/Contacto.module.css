@@ -121,6 +121,11 @@ button:disabled {
     margin: 0px;
     width: 350px;
   }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .formulario {
     width: fit-content;
     display: flex;
