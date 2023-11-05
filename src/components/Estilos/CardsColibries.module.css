@@ -4,3 +4,9 @@
   justify-content: space-around;
   margin: 100px;
 }
+
+@media (max-width: 768px) {
+  .cardsColibries {
+    margin-top: 0px;
+  }
+}
