@@ -30,6 +30,14 @@ export default function Contacto() {
     colibri: "",
     message: "",
   });
+  const resetForm = () => {
+    setForm({
+      name: "",
+      email: "",
+      colibri: "",
+      message: "",
+    });
+  };
 
   const handleChange = (event) => {
     const property = event.target.name;
@@ -42,7 +50,10 @@ export default function Contacto() {
     event.preventDefault();
     axios
       .post("https://formspree.io/f/xwkdaggq", form)
-      .then((res) => alert("Enviado!"))
+      .then((res) => {
+        alert("Enviado!");
+        resetForm();
+      })
       .catch((err) => alert("The creation failed"));
   };
 
