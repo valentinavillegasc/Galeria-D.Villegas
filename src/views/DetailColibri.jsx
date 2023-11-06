@@ -14,7 +14,7 @@ export default function DetailColibri() {
   useEffect(() => {
     dispatch(getColibriesById(params.id));
     return () => {
-      cleanDetail();
+      dispatch(cleanDetail());
     };
   }, [dispatch, params.id]);
 
