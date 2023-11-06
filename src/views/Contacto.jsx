@@ -54,7 +54,7 @@ export default function Contacto() {
         alert("Enviado!");
         resetForm();
       })
-      .catch((err) => alert("The creation failed"));
+      .catch((err) => alert("Algo salió mal"));
   };
 
   return (
