@@ -14,7 +14,7 @@ export default function Biografia() {
         </div>
         <div className={style.infoBiografia}>
           <div className={style.nameContainer}>
-            <h2>Diego Armando Villegas Tafur</h2>
+            <h2>Diego Villegas Tafur</h2>
             <p>Una Trayectoria Creativa y Entrañable en el Mundo del Arte.</p>
           </div>
 
@@ -38,40 +38,41 @@ export default function Biografia() {
               Villegas”, amplió sus horizontes creativos explorando pintura,
               artesanía y joyería artesanal.
             </p>
+            <p>
+              Su trayectoria profesional reluce con logros significativos. Como
+              Diseñador Gráfico, ha dejado una huella imborrable al contribuir
+              al diseño de catálogos para prestigiosas galerías y al moldear la
+              imagen corporativa del "Museo de Arte Contemporáneo Bolivariano"
+              en Santa Marta. Su impacto artístico también se manifiesta a
+              través de murales y monumentos que ha creado, fusionando
+              materiales con su imaginación, dando vida a obras memorables como
+              la escultura "LA NEGRA DEL CHONTADURO" y “LA CHAPOLERA”, fundidas
+              en bronce.
+            </p>
+            <p>
+              Pero su legado va más allá de su propia creación artística; Diego
+              también ha compartido su conocimiento y habilidades como educador
+              y mentor. Ha dejado una huella profunda como Profesor de Escultura
+              en el Colegio Gimnasio Campestre y como Profesor de Artesanía en
+              Metales y Pintura en el Colegio Helvetia, además de su papel como
+              maestro en artes plásticas en el Centro Cultural y Educativo
+              Español Reyes Católicos, y actualmente en el Colegio Gimnasio de
+              los Cerros.
+            </p>
+            <p>
+              Además, su papel como director de Casa Tafur ilustra su dedicación
+              para inspirar y nutrir las futuras generaciones de artistas. A lo
+              largo de su distinguida carrera, ha participado en exposiciones
+              colectivas y concursos, cosechando reconocimientos en diversas
+              galerías y espacios culturales. Su legado es un testimonio
+              elocuente de su dedicación incansable al arte en todas sus formas
+              y de su profundo impacto en la comunidad artística y cultural.
+              Diego Armando Villegas Tafur es un nombre que resonará eternamente
+              en la historia del arte, dejando una marca indeleble en el mundo
+              creativo.
+            </p>
           </div>
         </div>
-      </div>
-      <div className={style.textoDebajoFoto}>
-        <p>
-          Su trayectoria profesional reluce con logros significativos. Como
-          Diseñador Gráfico, ha dejado una huella imborrable al contribuir al
-          diseño de catálogos para prestigiosas galerías y al moldear la imagen
-          corporativa del "Museo de Arte Contemporáneo Bolivariano" en Santa
-          Marta. Su impacto artístico también se manifiesta a través de murales
-          y monumentos que ha creado, fusionando materiales con su imaginación,
-          dando vida a obras memorables como la escultura "LA NEGRA DEL
-          CHONTADURO" y “LA CHAPOLERA”, fundidas en bronce.
-        </p>
-        <p>
-          Pero su legado va más allá de su propia creación artística; Diego
-          también ha compartido su conocimiento y habilidades como educador y
-          mentor. Ha dejado una huella profunda como Profesor de Escultura en el
-          Colegio Gimnasio Campestre y como Profesor de Artesanía en Metales y
-          Pintura en el Colegio Helvetia, además de su papel como maestro en
-          artes plásticas en el Centro Cultural y Educativo Español Reyes
-          Católicos, y actualmente en el Colegio Gimnasio de los Cerros.
-        </p>
-        <p>
-          Además, su papel como director de Casa Tafur ilustra su dedicación
-          para inspirar y nutrir las futuras generaciones de artistas. A lo
-          largo de su distinguida carrera, ha participado en exposiciones
-          colectivas y concursos, cosechando reconocimientos en diversas
-          galerías y espacios culturales. Su legado es un testimonio elocuente
-          de su dedicación incansable al arte en todas sus formas y de su
-          profundo impacto en la comunidad artística y cultural. Diego Armando
-          Villegas Tafur es un nombre que resonará eternamente en la historia
-          del arte, dejando una marca indeleble en el mundo creativo.
-        </p>
       </div>
       <Footer />
     </div>

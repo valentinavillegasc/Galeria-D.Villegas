@@ -12,15 +12,21 @@
   margin-right: 100px;
   margin-bottom: 0px;
   pointer-events: none;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .fotoContainer {
   padding-top: 10px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .foto {
   border-radius: 10px;
-  width: 700px;
+  width: 800px;
   height: 550px;
 }
 
@@ -51,18 +57,6 @@
 
 .textoParteDerecha p {
   margin-bottom: 10px;
-}
-.textoDebajoFoto {
-  text-align: justify;
-  font-size: 2rem;
-  margin-top: 20px;
-  margin-bottom: 300px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.textoDebajoFoto p {
-  padding-bottom: 10px;
 }
 
 /*Media queries*/
