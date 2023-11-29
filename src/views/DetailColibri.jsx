@@ -1,13 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import { getColibriesById, cleanDetail } from "../redux/actions";
 import style from "./Estilos/DetailColibri.module.css";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
+import DimensionesYPrecios from "../components/DimensionesYPrecios";
 
 export default function DetailColibri() {
+  const [mostrarVentana, setMostrarVentana] = useState(false);
   const colibri = useSelector((state) => state.colibriDetail);
   const dispatch = useDispatch();
   const params = useParams();
@@ -18,6 +19,10 @@ export default function DetailColibri() {
       dispatch(cleanDetail());
     };
   }, [dispatch, params.id]);
+
+  const toggleVentana = () => {
+    setMostrarVentana(!mostrarVentana);
+  };
 
   return (
     <div className={style.DetailColibri}>
@@ -35,6 +40,12 @@ export default function DetailColibri() {
           <p className={style.fichaTecnica}>{colibri.fichaTecnica}</p>
         </div>
       </div>
+      <div>
+        <button className={style.button} onClick={toggleVentana}>
+          Dimensiones
+        </button>
+      </div>
+      <DimensionesYPrecios mostrar={mostrarVentana} onClose={toggleVentana} />
       <Footer />
     </div>
   );
