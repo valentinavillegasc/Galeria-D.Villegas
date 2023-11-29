@@ -49,7 +49,7 @@ export default function Contacto() {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("https://formspree.io/f/xwkdaggq", form)
+      .post("https://formspree.io/f/mwkddrrj", form)
       .then((res) => {
         alert("Enviado!");
         resetForm();

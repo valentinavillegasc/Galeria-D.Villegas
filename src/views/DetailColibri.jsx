@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import { getColibriesById, cleanDetail } from "../redux/actions";
 import style from "./Estilos/DetailColibri.module.css";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function DetailColibri() {
   const colibri = useSelector((state) => state.colibriDetail);
@@ -32,6 +33,9 @@ export default function DetailColibri() {
               : "Nombre de Colección no disponible"}
           </p>
           <p className={style.fichaTecnica}>{colibri.fichaTecnica}</p>
+          <Link to="/contacto" className={style.button}>
+            Más información
+          </Link>
         </div>
       </div>
       <Footer />
