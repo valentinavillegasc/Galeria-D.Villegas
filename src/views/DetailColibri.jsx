@@ -33,9 +33,6 @@ export default function DetailColibri() {
               : "Nombre de Colección no disponible"}
           </p>
           <p className={style.fichaTecnica}>{colibri.fichaTecnica}</p>
-          <Link to="/contacto" className={style.button}>
-            Más información
-          </Link>
         </div>
       </div>
       <Footer />
