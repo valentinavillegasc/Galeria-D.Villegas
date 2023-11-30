@@ -6,6 +6,7 @@ export default function Landing() {
     <div className={style.landing}>
       <div className={style.landingContainer}>
         <h1>Sembradores de vida</h1>
+        <h2>Diego Villegas</h2>
         <div className={style.buttons}>
           <Link to="/biografia">
             <button className={style.button}>Biografía</button>
