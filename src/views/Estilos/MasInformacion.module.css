@@ -20,3 +20,21 @@
   text-decoration: none;
   color: #726c6c;
 }
+
+@media (max-width: 767px) {
+  .contenedorInformacion {
+    padding: 10px;
+  }
+  .contenedorInformacion h1 {
+    color: black;
+    font-size: 1.2rem;
+  }
+  .contenedorInformacion p {
+    font-size: 0.8rem;
+    margin: 0px 0px 10px;
+  }
+  .contenedorInformacion img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
