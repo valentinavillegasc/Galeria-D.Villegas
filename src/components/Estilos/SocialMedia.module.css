@@ -15,8 +15,8 @@
     margin-top: 20px;
   }
   .icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -27,7 +27,7 @@
   }
 
   .siguenos {
-    font-size: 5rem;
+    font-size: 2rem;
     color: white;
   }
 }

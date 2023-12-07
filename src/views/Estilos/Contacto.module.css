@@ -19,7 +19,7 @@
   width: fit-content;
 }
 .titleContainer h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 100;
   color: black;
 }
@@ -47,7 +47,7 @@
 }
 
 .inputs label {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-right: 20px;
   font-weight: 100;
 }
@@ -112,13 +112,12 @@ button:disabled {
     display: none;
   }
 
-  .titleContainer {
-    font-size: 2rem; /* Reducido el tamaño del título */
-    text-align: center; /* Centrado el texto */
-  }
   .titleContainer h1 {
-    font-size: 4rem;
+    font-size: 3rem; /* Reducido el tamaño del título */
+    text-align: center; /* Centrado el texto */
+    margin: 20px 0px 20px;
   }
+
   .contenedorinputs {
     padding: 20px;
     margin: 0px;
@@ -141,7 +140,7 @@ button:disabled {
   }
 
   .inputs label {
-    font-size: 2rem; /* Reducido el tamaño de la etiqueta */
+    font-size: 1.2rem; /* Reducido el tamaño de la etiqueta */
   }
 
   .inputs textarea {
