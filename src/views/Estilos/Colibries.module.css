@@ -1,15 +1,18 @@
 .colibriesContainer h1 {
   color: black;
+  font-size: 100px;
+  font-weight: 100;
+  margin-top: 50px;
 }
 
 .colibries {
-  width: full;
-  height: full;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
   .colibriesContainer h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     margin-top: 40px;
   }
 }

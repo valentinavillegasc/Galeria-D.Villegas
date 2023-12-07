@@ -40,19 +40,20 @@
 }
 
 .nameContainer h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 100;
+  margin-top: 50px;
 }
 
 .nameContainer p {
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .textoParteDerecha {
   text-align: justify;
-  font-size: 2rem;
-  font-weight: 90;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 .textoParteDerecha p {
@@ -71,12 +72,14 @@
 
   .fotoContainer {
     margin-bottom: 10px; /* Reducido el margen inferior */
+    margin: 0px;
   }
 
   .foto {
     width: 100%; /* Establecido el ancho al 100% para que sea responsivo */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
     max-width: 1000px; /* Establecido un ancho máximo para la imagen */
+    margin-top: 20px;
   }
 
   .nameContainer {
@@ -85,12 +88,12 @@
   }
 
   .nameContainer h2 {
-    font-size: 5rem; /* Reducido el tamaño de la fuente */
+    font-size: 2.5rem; /* Reducido el tamaño de la fuente */
     font-weight: 100;
   }
 
   .nameContainer p {
-    font-size: 1.6rem; /* Reducido el tamaño de la fuente */
+    font-size: 1.2rem; /* Reducido el tamaño de la fuente */
     padding-bottom: 10px; /* Tamaño de fuente más pequeño para el párrafo */
   }
   .infoBiografia {
@@ -98,8 +101,8 @@
   }
 
   .textoParteDerecha p {
-    margin-bottom: 5px; /* Reducido el margen inferior */
-    font-size: 1.8rem; /* Reducido el tamaño de la fuente */
+    margin-bottom: 20px; /* Reducido el margen inferior */
+    font-size: 1.2rem; /* Reducido el tamaño de la fuente */
     font-weight: 100;
     color: black;
   }
