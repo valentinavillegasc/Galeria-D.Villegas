@@ -29,6 +29,9 @@ export default function NavBar() {
         <Link to="/contacto" className={style.button}>
           Contacto
         </Link>
+        <Link to="/másInformación" className={style.button}>
+          Información
+        </Link>
       </div>
     </div>
   );
