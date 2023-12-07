@@ -4,6 +4,8 @@
 }
 .home h1 {
   color: black;
+  font-weight: 100;
+  margin-top: 50px;
 }
 
 .button {
@@ -42,7 +44,7 @@ button:disabled {
   }
 
   .home h1 {
-    font-size: 5rem; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    font-size: 4rem; /* Tamaño de fuente ajustado para pantallas más pequeñas */
     margin-bottom: 20px;
   }
 
