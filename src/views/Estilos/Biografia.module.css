@@ -20,14 +20,13 @@
 .fotoContainer {
   padding-top: 10px;
   float: right;
-  margin-left: 20px;
-  margin-top: 50px;
+  margin: 110px 20px 10px;
 }
 
 .foto {
   border-radius: 10px;
-  width: 800px;
-  height: 550px;
+  width: 650px;
+  height: 490px;
 }
 
 .infoBiografia {
@@ -47,12 +46,12 @@
 
 .nameContainer p {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .textoParteDerecha {
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 100;
 }
 
