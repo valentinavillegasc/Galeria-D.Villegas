@@ -7,7 +7,7 @@ export default function BurgerNav() {
       <ul className={style.linkList}>
         <li>
           <Link to="/home" className={style.link}>
-            Home
+            Colecciones
           </Link>
         </li>
         <li>

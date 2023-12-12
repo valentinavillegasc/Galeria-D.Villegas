@@ -21,7 +21,7 @@ export default function NavBar() {
           menuVisible ? style.showMenu : style.hideMenu
         }`}>
         <Link to="/home" className={style.button}>
-          Home
+          Colecciones
         </Link>
         <Link to="/biografia" className={style.button}>
           Biografía

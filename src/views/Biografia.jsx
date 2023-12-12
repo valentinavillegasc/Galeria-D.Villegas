@@ -20,11 +20,11 @@ export default function Biografia() {
 
           <div className={style.textoParteDerecha}>
             <p>
-              Diego Villegas, destacado Maestro en Artes Plásticas y artista
-              global contemporáneo, se destaca por su expresión artística
-              centrada en la abstracción de figuras de aves, como el colibrí,
-              para transmitir un mensaje profundo. Hijo de los reconocidos
-              maestros Alicia Tafur y Armando Villegas, su obra se inspira en el
+              Destacado Maestro en Artes Plásticas y artista global
+              contemporáneo, se destaca por su expresión artística centrada en
+              la abstracción de figuras de aves, como el colibrí, para
+              transmitir un mensaje profundo. Hijo de los reconocidos maestros
+              Alicia Tafur y Armando Villegas, su obra se inspira en el
               dinamismo del vuelo y la riqueza cromática de estas criaturas
               aladas.
             </p>
@@ -42,6 +42,11 @@ export default function Biografia() {
               en exposiciones y concursos. Su legado es un testimonio elocuente
               de su dedicación al arte y su impacto duradero en la comunidad
               artística y cultural.
+            </p>
+            <p>
+              "Acompañemos cuidemos y disfrutemos al colibrí en su arte de
+              polinizar y alegrar a nuestro mundo" <br /> D.Villegas <br />
+              Mhaart - Maestro en Artes
             </p>
           </div>
         </div>

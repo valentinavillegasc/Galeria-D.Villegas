@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className={style.footer}>
       <div>
         <Link to="/home" className={style.button}>
-          Home
+          Colecciones
         </Link>
         <Link to="/biografia" className={style.button}>
           Biografía
