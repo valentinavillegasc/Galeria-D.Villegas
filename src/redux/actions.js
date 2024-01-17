@@ -11,7 +11,8 @@ import {
 
 // axios.defaults.baseURL = "http://localhost:3001";
 
-axios.defaults.baseURL = "https://back-galeria-production.up.railway.app";
+axios.defaults.baseURL = "https://back-galeria-production.up.railway.app/";
+
 //! Actions COLECCIONES
 
 export const getColecciones = () => {
