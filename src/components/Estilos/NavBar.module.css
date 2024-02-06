@@ -5,13 +5,14 @@
   justify-content: space-between;
   padding: 8px;
   margin-bottom: 20px;
-  background-image: url("../../assets/navBar.png");
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.039);
 }
 
 .logo {
   margin-left: 2rem;
   padding: 8px;
+  width: 200px;
 }
 
 .buttons {

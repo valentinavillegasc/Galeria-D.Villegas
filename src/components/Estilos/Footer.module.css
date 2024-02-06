@@ -6,8 +6,8 @@
   align-items: center;
   padding: 20px;
   margin-top: 50px;
-
-  background-image: url("../../assets/navBar.png");
+  background-color: rgba(0, 0, 0, 0.039);
+  /* background-image: url("../../assets/navBar.png"); */
 }
 
 .footer h3 {

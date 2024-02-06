@@ -16,7 +16,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  background-color: #cfe9e5;
+  background-color: rgba(0, 0, 0, 0.219);
   border-radius: 20px;
   width: fit-content;
   height: fit-content;
@@ -27,7 +27,7 @@
 }
 
 .info h1 {
-  color: black;
+  color: whitesmoke;
   font-size: 7rem;
   font-weight: 100;
 }
@@ -35,15 +35,16 @@
 .coleccion {
   font-size: 2.4rem;
   margin-bottom: 30px;
-  color: gray;
+  color: rgb(194, 190, 190);
   font-weight: 100;
 }
 .fichaTecnica {
   font-weight: 100;
   font-size: 1.5rem;
-  background-color: #d9d9d9;
+  background-color: rgba(0, 0, 0, 0.219);
   padding: 20px;
   border-radius: 10px;
+  color: whitesmoke;
 }
 
 @media (max-width: 768px) {

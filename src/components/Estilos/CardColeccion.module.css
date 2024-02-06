@@ -1,9 +1,9 @@
 .link {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 }
 .CardColeccion {
-  background-color: #84e0d28a;
+  background-color: rgba(0, 0, 0, 0.219);
   display: flex;
   width: fit-content;
   height: 300px;

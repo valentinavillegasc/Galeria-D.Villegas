@@ -7,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./assets/navBar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
