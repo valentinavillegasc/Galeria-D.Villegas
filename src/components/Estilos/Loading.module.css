@@ -6,14 +6,16 @@ svg {
 
 circle {
   fill: none;
-  stroke: hsl(214, 97%, 59%);
-  stroke-width: 8;
+  stroke: hsl(220, 33%, 96%);
+  stroke-width: 5;
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
   stroke-linecap: round;
   animation: dash4 1.5s ease-in-out infinite;
 }
-
+h2 {
+  color: whitesmoke;
+}
 @keyframes rotate4 {
   100% {
     transform: rotate(360deg);
