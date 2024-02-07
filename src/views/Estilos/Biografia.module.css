@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 20px 0px; /* Reducido el margen */
+    margin: 20px 20px 20px; /* Reducido el margen */
   }
 
   .fotoContainer {
@@ -104,10 +104,8 @@
   }
 
   .textoParteDerecha p {
-    margin-bottom: 20px; /* Reducido el margen inferior */
     font-size: 1.2rem; /* Reducido el tamaño de la fuente */
     font-weight: 100;
-    color: black;
   }
 
   .textoDebajoFoto {
