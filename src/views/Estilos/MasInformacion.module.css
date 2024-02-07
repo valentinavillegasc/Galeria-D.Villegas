@@ -21,6 +21,16 @@
   color: rgb(194, 190, 190);
 }
 
+.precios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  color: rgb(244, 238, 238);
+  font-size: 3rem;
+}
+
 @media (max-width: 767px) {
   .contenedorInformacion {
     padding: 10px;

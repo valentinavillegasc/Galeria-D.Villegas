@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Estilos/MasInformacion.module.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import precios from "../assets/Precios.png";
+
 import { Link } from "react-router-dom";
 export default function MasInformacion() {
   return (
@@ -20,7 +20,15 @@ export default function MasInformacion() {
           comprensión clara de su escala. Los precios varían según la obra, y
           cada detalle se encuentra en la descripción correspondiente.
         </p>
-        <img src={precios} alt="Dimensiones y sus precios" />
+
+        <div className={style.precios}>
+          <p>20 X 15 - $277.500</p>
+          <p>30 X 20 - $377.500</p>
+          <p>40 X 30 - $537.000</p>
+          <p>40 X 50 - $637.000</p>
+          <p>50 x 35 - $737.000</p>
+          <p>70 x 50 - $1.470.000</p>
+        </div>
         <p>
           Para obtener más información sobre una obra en particular, realizar
           una compra o hacer consultas adicionales, no dude en ponerse en
