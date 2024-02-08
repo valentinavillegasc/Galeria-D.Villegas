@@ -8,34 +8,68 @@
   margin-top: 50px;
 }
 
-.button {
-  background-color: #eee;
-  border: none;
-  padding: 1rem;
-  font-size: 1rem;
-  width: 10em;
-  border-radius: 1rem;
-  color: #66b3a78a;
-  box-shadow: 0 0.4rem #dfd9d9;
+button {
+  appearance: button;
+  background-color: #00000041;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
   cursor: pointer;
-  margin-bottom: 100px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 19px;
+  text-align: center;
+
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.button:active {
-  color: white;
-  box-shadow: 0 0.2rem #dfd9d9;
-  transform: translateY(0.2rem);
+button:after {
+  background-clip: padding-box;
+  background-color: #00000055;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+button:main,
+button:focus {
+  user-select: auto;
 }
 
 button:hover:not(:disabled) {
-  background: #84e0d28a;
-  color: white;
-  text-shadow: 0 0.1rem #bcb4b4;
+  filter: brightness(1.1);
 }
 
 button:disabled {
   cursor: auto;
-  color: grey;
+}
+
+button:active:after {
+  border-width: 0 0 0px;
+}
+
+button:active {
+  padding-bottom: 10px;
 }
 @media (max-width: 768px) {
   .home {
