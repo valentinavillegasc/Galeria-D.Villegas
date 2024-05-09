@@ -5,7 +5,6 @@ import Landing from "./views/Landing";
 import Colibries from "./views/Colibries";
 import DetailColeccion from "./views/DetailColeccion";
 import DetailColibri from "./views/DetailColibri";
-import Contacto from "./views/Contacto";
 import { Route, Routes } from "react-router-dom";
 import MasInformacion from "./views/MasInformacion";
 
@@ -19,7 +18,6 @@ function App() {
         <Route path="/colibries" element={<Colibries />} />
         <Route path="/detailColeccion/:id" element={<DetailColeccion />} />
         <Route path="/detailColibri/:id" element={<DetailColibri />} />
-        <Route path="/contacto" element={<Contacto />} />
         <Route path="/másInformación" element={<MasInformacion />} />
       </Routes>
     </div>
