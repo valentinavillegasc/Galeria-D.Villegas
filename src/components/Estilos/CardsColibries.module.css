@@ -8,5 +8,6 @@
 @media (max-width: 768px) {
   .cardsColibries {
     margin-top: 0px;
+    justify-content: center;
   }
 }

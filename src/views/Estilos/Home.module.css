@@ -75,6 +75,7 @@ button:active {
   .home {
     text-align: center;
     margin: 50px auto; /* Centra y ajusta el margen */
+    height: 100vh;
   }
 
   .home h1 {
