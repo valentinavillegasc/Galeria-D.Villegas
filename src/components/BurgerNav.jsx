@@ -16,14 +16,18 @@ export default function BurgerNav() {
           </Link>
         </li>
         <li>
-          <Link to="/contacto" className={style.link}>
-            Contacto
-          </Link>
-        </li>
-        <li>
           <Link to="/másInformación" className={style.link}>
             Información
           </Link>
+        </li>
+        <li>
+          <a
+            href="https://sorteodvillegas.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className={style.link}>
+            Sorteo
+          </a>
         </li>
       </ul>
     </div>

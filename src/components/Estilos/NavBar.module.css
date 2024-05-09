@@ -47,7 +47,7 @@
 /*Media queries*/
 @media (max-width: 768px) {
   .navBar {
-    height: 8vh; /* Reducido la altura */
+    height: 9vh; /* Reducido la altura */
     padding: 12px; /* Ajustado el relleno */
     width: 100%;
   }

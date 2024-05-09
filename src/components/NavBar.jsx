@@ -26,12 +26,16 @@ export default function NavBar() {
         <Link to="/biografia" className={style.button}>
           Biografía
         </Link>
-        <Link to="/contacto" className={style.button}>
-          Contacto
-        </Link>
         <Link to="/másInformación" className={style.button}>
           Información
         </Link>
+        <a
+          href="https://sorteodvillegas.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          className={style.button}>
+          Sorteo
+        </a>
       </div>
     </div>
   );
